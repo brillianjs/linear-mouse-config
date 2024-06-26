@@ -1,0 +1,75 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5",
+  "schemes" : [
+    {
+      "buttons" : {
+        "mappings" : [
+          {
+            "action" : "missionControl.spaceRight",
+            "option" : false,
+            "shift" : false,
+            "button" : 3,
+            "command" : false,
+            "control" : false
+          },
+          {
+            "action" : "missionControl.spaceLeft",
+            "option" : false,
+            "shift" : false,
+            "button" : 4,
+            "command" : false,
+            "control" : false
+          },
+          {
+            "action" : "media.volumeUp",
+            "option" : false,
+            "shift" : false,
+            "control" : false,
+            "command" : true,
+            "scroll" : "up"
+          },
+          {
+            "action" : "media.volumeDown",
+            "option" : false,
+            "shift" : false,
+            "control" : false,
+            "command" : true,
+            "scroll" : "down"
+          },
+          {
+            "action" : "display.brightnessUp",
+            "option" : false,
+            "shift" : false,
+            "control" : true,
+            "command" : false,
+            "scroll" : "up"
+          },
+          {
+            "action" : "display.brightnessDown",
+            "option" : false,
+            "shift" : false,
+            "control" : true,
+            "command" : false,
+            "scroll" : "down"
+          }
+        ]
+      },
+      "if" : {
+        "device" : {
+          "productName" : "BT5.1 Mouse",
+          "productID" : "0x1",
+          "category" : "mouse",
+          "vendorID" : "0x32c2"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : false
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        }
+      }
+    }
+  ]
+}

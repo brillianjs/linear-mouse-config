@@ -1,0 +1,1 @@
+# linear-mouse-config
